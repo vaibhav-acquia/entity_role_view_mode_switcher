@@ -22,7 +22,7 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *       "html" = "Drupal\entity_role_view_mode_switcher\RuleHtmlRouteProvider",
  *     },
  *    "access" = "Drupal\Core\Entity\EntityAccessControlHandler",
- *    "permission_provider" = "Drupal\Core\Entity\EntityAccessControlHandler"
+ *    "permission_provider" = "Drupal\entity\EntityPermissionProvider"
  *   },
  *   config_prefix = "rule",
  *   admin_permission = "administer site configuration",

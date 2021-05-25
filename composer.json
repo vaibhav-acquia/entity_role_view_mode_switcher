@@ -10,5 +10,7 @@
     "issues": "https://www.drupal.org/project/issues/entity_role_view_mode_switcher",
     "source": "http://cgit.drupalcode.org/entity_role_view_mode_switcher"
   },
-  "require": { }
+  "require": {
+    "drupal/entity": "~1.0"
+  }
 }

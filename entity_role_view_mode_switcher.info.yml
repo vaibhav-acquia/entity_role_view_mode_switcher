@@ -4,3 +4,5 @@ description: 'Allows the view mode to be switched based on role per entity.'
 core: 8.x
 core_version_requirement: ^8 || ^9
 package: 'Other'
+dependencies:
+  - entity:entity
