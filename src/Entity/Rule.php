@@ -37,6 +37,11 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *     "edit-form" = "/admin/structure/entity_role_view_mode_switcher_rule/{rule}/edit",
  *     "delete-form" = "/admin/structure/entity_role_view_mode_switcher_rule/{rule}/delete",
  *     "collection" = "/admin/structure/entity_role_view_mode_switcher_rule"
+ *   },
+ *   config_export = {
+ *     "id",
+ *     "label",
+ *     "conditions",
  *   }
  * )
  */
