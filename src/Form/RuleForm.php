@@ -162,13 +162,13 @@ class RuleForm extends EntityForm {
 
     switch ($status) {
       case SAVED_NEW:
-        drupal_set_message($this->t('Created the %label View Mode Switcher Rule.', [
+        $this->messenger()->addMessage($this->t('Created the %label View Mode Switcher Rule.', [
           '%label' => $rule->label(),
         ]));
         break;
 
       default:
-        drupal_set_message($this->t('Saved the %label View Mode Switcher Rule.', [
+        $this->messenger()->addMessage($this->t('Saved the %label View Mode Switcher Rule.', [
           '%label' => $rule->label(),
         ]));
     }
@@ -211,7 +211,7 @@ class RuleForm extends EntityForm {
     $form_state->setRebuild();
 
     // Return any messages set.
-    drupal_get_messages();
+    \Drupal::messenger()->all();
   }
 
   /**
@@ -244,7 +244,7 @@ class RuleForm extends EntityForm {
     $form_state->setRebuild();
 
     // Return any messages set.
-    drupal_get_messages();
+    \Drupal::messenger()->all();
   }
 
   /**
