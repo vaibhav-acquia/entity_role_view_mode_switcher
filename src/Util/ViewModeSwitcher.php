@@ -6,7 +6,7 @@ use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\FieldableEntityInterface;
 
 /**
- * Class ViewModeSwitcher.
+ * Handles the View Mode switching.
  *
  * @package Drupal\entity_role_view_mode_switcher\Util
  */

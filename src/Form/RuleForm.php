@@ -9,7 +9,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\user\Entity\Role;
 
 /**
- * Class RuleForm.
+ * Form handler for the rule edit forms.
  */
 class RuleForm extends EntityForm {
 
@@ -276,7 +276,7 @@ class RuleForm extends EntityForm {
     return array_map(function ($item) {
       /** @var \Drupal\Core\Entity\EntityViewModeInterface $item */
       return $item->getTargetType() . ' - ' . $item->label();
-    }, EntityViewMode::loadMultiple());;
+    }, EntityViewMode::loadMultiple());
   }
 
 }
