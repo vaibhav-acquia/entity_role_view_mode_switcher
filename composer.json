@@ -3,14 +3,33 @@
   "type": "drupal-module",
   "description": "Allows the view mode to be switched based on role per entity.",
   "keywords": ["Drupal"],
-  "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/entity_role_view_mode_switcher",
+  "authors": [
+    {
+      "name": "Chris Snyder",
+      "homepage": "https://www.drupal.org/u/chrissnyder",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Jonny Eom",
+      "homepage": "https://www.drupal.org/u/jonnyeom",
+      "role": "Maintainer"
+    }
+  ],
+  "license": "GPL-2.0+",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "support": {
     "issues": "https://www.drupal.org/project/issues/entity_role_view_mode_switcher",
-    "source": "http://cgit.drupalcode.org/entity_role_view_mode_switcher"
+    "source": "https://git.drupalcode.org/project/entity_role_view_mode_switcher"
   },
-  "require": {
-    "drupal/entity": "~1.0"
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require-dev": {
+    "drupal/coder": "^8.3"
   }
 }
