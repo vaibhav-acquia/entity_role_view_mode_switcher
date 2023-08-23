@@ -5,8 +5,8 @@
  * Contains entity_role_view_mode_switcher.module.
  */
 
-use Drupal\entity_role_view_mode_switcher\Util\ViewModeSwitcher;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\entity_role_view_mode_switcher\Util\ViewModeSwitcher;
 
 /**
  * Implements hook_entity_view_mode_alter().

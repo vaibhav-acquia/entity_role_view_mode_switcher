@@ -65,7 +65,7 @@ class ViewModeSwitcher {
         if ($condition['original_view_mode_id'] === $qualifiedOriginalViewMode
           && (($condition['negate'] && !\in_array($condition['role_id'], $roles, TRUE))
             || (!$condition['negate'] && \in_array($condition['role_id'], $roles, TRUE)))) {
-          list($type, $viewMode) = explode('.', $condition['new_view_mode_id']);
+          [$type, $viewMode] = explode('.', $condition['new_view_mode_id']);
           // The first ones take precedence.
           break;
         }
