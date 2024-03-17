@@ -1,5 +1,5 @@
 name: 'Entity Role View Mode Switcher'
 type: module
 description: 'Allows the view mode to be switched based on role per entity.'
-core_version_requirement: ^8 || ^9 || ^10
+core_version_requirement: ^8 || ^9 || ^10 || ^11
 package: 'Other'
